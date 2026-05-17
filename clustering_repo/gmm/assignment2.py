@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.mixture import GaussianMixture
 
 # --- Load ảnh ---
-img = cv2.imread("cow.jpg")
+img = cv2.imread("gmm/cow.jpg")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 h, w, c = img.shape
 
